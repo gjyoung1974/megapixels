@@ -1,0 +1,17 @@
+image: archlinux
+packages:
+  - meson
+  - ninja
+  - gtk3
+tasks:
+  - build: |
+      cd megapixels
+      meson build
+      ninja -C build
+  - test: |
+      cd megapixels
+      ninja -C build test
+sources:
+  - https://git.sr.ht/~martijnbraam/megapixels
+artifacts:
+  - megapixels/build/megapixels
