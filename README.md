@@ -1,5 +1,13 @@
 # Megapixels
 
+Thank you Martijn Braam for Megapixels!
+
+This was cloned from:
+https://sr.ht/~martijnbraam/Megapixels/
+
+I made a clone here to make it easier for me to work with.
+
+What is Megapixel?
 A GTK3 camera application that knows how to deal with the media request api
 
 irc: #megapixels on freenode
